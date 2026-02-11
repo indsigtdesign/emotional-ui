@@ -72,7 +72,7 @@ export const DissociatingButton = forwardRef<
             hover:bg-slate-700 disabled:cursor-wait
             focus:outline-none
             focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2
-            transition-colors transition-transform
+            transition-[colors,transform]
             ${clicked ? 'outline outline-2 outline-offset-2 outline-slate-200/30' : ''}
             ${className}
           `}

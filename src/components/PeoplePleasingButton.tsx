@@ -78,7 +78,7 @@ export const PeoplePleasingButton = forwardRef<
 					whileTap={{ scale: 0.98 }}
 					className={`
             px-6 py-2.5 rounded-lg font-medium border
-            transition-colors transition-transform focus:outline-none
+            transition-[colors,transform] focus:outline-none
             focus-visible:ring-2 focus-visible:ring-offset-2
             ${
 				isConfirming

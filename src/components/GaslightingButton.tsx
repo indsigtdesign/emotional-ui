@@ -61,7 +61,7 @@ export const GaslightingButton = forwardRef<
             px-6 py-2.5 rounded-lg font-medium border
             focus:outline-none
             focus-visible:ring-2 focus-visible:ring-offset-2
-            transition-colors transition-transform
+            transition-[colors,transform]
             ${
 				showGaslight
 					? 'bg-red-500 text-white border-red-600 focus-visible:ring-red-400'

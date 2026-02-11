@@ -67,7 +67,7 @@ export const AnxiousButton = forwardRef<
             bg-amber-100 text-amber-900 border border-amber-300
             hover:bg-amber-200 focus:outline-none
             focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2
-            transition-colors transition-transform
+            transition-[colors,transform]
             ${clicked ? 'outline outline-2 outline-offset-2 outline-amber-500/50' : ''}
             ${className}
           `}

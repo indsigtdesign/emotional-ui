@@ -88,7 +88,7 @@ export const OverthinkingButton = forwardRef<
             hover:bg-violet-600
             focus:outline-none
             focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2
-            transition-colors transition-transform
+            transition-[colors,transform]
             ${clicked ? 'outline outline-2 outline-offset-2 outline-violet-200/40' : ''}
             ${className}
           `}

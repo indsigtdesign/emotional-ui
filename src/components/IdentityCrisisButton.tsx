@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, forwardRef } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import type { IdentityCrisisButtonProps } from './types';
 import { stripConflictingProps } from './types';
 import { useClickFlash } from './useClickFlash';

@@ -83,7 +83,7 @@ export const OverlyEagerButton = forwardRef<
             hover:bg-gray-200 shadow-sm
             focus:outline-none
             focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2
-            transition-colors transition-transform
+            transition-[colors,transform]
             ${clicked ? 'outline outline-2 outline-offset-2 outline-gray-500/40' : ''}
             ${className}
           `}

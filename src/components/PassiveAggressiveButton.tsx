@@ -61,11 +61,11 @@ export const PassiveAggressiveButton = forwardRef<
 			<button
 				ref={ref}
 				className={`
-          px-6 py-2.5 rounded-lg font-medium border
-          focus:outline-none
-          focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2
-          transition-colors transition-transform active:scale-[0.98]
-          ${clicked ? 'outline outline-2 outline-offset-2 outline-gray-500/40' : ''}
+		  px-6 py-2.5 rounded-lg font-medium border
+		  focus:outline-none
+		  focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2
+		  transition-[colors,transform] active:scale-[0.98]
+		  ${clicked ? 'outline outline-2 outline-offset-2 outline-gray-500/40' : ''}
           ${moodStyles[mood]} ${className}
         `}
 				onClick={handleClick}
