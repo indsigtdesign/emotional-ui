@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Custom animations for Emotional Buttons === */
+
+/* Anxious button shake */
+@keyframes anxious-shake {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		transform: translateX(-2px);
+	}
+	20%,
+	40%,
+	60%,
+	80% {
+		transform: translateX(2px);
+	}
+}
+
+@keyframes anxious-shake-extreme {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		transform: translateX(-4px) rotate(-1deg);
+	}
+	20%,
+	40%,
+	60%,
+	80% {
+		transform: translateX(4px) rotate(1deg);
+	}
+}
+
+/* Dissociating fade */
+@keyframes dissociate-fade {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.1;
+	}
+}
+
+/* Identity Crisis - Glossy shine for skeuomorphic */
+@keyframes glossy-sweep {
+	0% {
+		left: -100%;
+	}
+	100% {
+		left: 200%;
+	}
+}
+
+/* Identity Crisis - Material ripple */
+@keyframes material-ripple {
+	0% {
+		transform: scale(0);
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale(4);
+		opacity: 0;
+	}
+}
+
+/* Identity Crisis - Web 2.0 shine */
+@keyframes web2-shine {
+	0% {
+		transform: translateX(-100%) rotate(25deg);
+	}
+	100% {
+		transform: translateX(300%) rotate(25deg);
+	}
+}
+
+body {
+	margin: 0;
+	font-family:
+		'Inter',
+		system-ui,
+		-apple-system,
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
